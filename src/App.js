@@ -1,6 +1,15 @@
 import './App.css';
+//dont need the .js files 
+import countries from './objects/objLiteral'
 
 function App() {
+
+// console.log(countries)
+// deconstruction 
+ const [be,usa,ind ] = countries
+ //const [b,...rest ] = countries
+ //console.log(rest)
+
   return (
   <div className="container-fluid">
     <h2>Covid Vaccination Tracker </h2>
@@ -13,24 +22,24 @@ function App() {
   </div>
 
   <div className="table-row">
-    <div className="text">Belgium</div>
-    <div className="text">1.74M</div>
-    <div className="text">506000</div>
-    <div className="text">4.42</div>    
+    <div className="text">{be.name}</div>
+    <div className="text">{be.dosesGiven}</div>
+    <div className="text">{be.vaccinated}</div>
+    <div className="text">  -  </div>    
   </div>
 
   <div className="table-row">
-    <div className="text">United States</div>
-    <div className="text">146M</div>
-    <div className="text">526666</div>
-    <div className="text">16.03</div>    
+    <div className="text">{usa.name}</div>
+    <div className="text">{usa.dosesGiven}</div>
+    <div className="text">{usa.vaccinated}</div>    
+    <div className="text"> - </div>    
   </div>
 
   <div className="table-row">
-    <div className="text">India</div>
-    <div className="text">61.1M</div>
-    <div className="text">809000</div>
-    <div className="text">0.65</div>    
+    <div className="text">{ind.name}</div>
+    <div className="text">{ind.dosesGiven}</div>
+    <div className="text">{ind.vaccinated}</div>    
+    <div className="text"> - </div>    
   </div>
 
 </div>
