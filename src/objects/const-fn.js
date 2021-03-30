@@ -10,6 +10,7 @@ const Country = function(name,dosesGiven,vaccinated, population){
     }
 }
 
+
 // the new keyword... creates a object,
 const belgium = new Country("Belgium","1.74M","50600",500000) 
 const usa = new Country("United States","20M","500600",1500000) 
