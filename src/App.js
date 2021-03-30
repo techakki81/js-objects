@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className="container-fluid">
+    <h2>Covid Vaccination Tracker </h2>
+
+  <div className="table-row header">
+    <div className="text">Country</div>
+    <div className="text">Doses Given</div>
+    <div className="text">Vaccinated</div>
+    <div className="text">% vaccinated</div>    
+  </div>
+
+  <div className="table-row">
+    <div className="text">Belgium</div>
+    <div className="text">1.74M</div>
+    <div className="text">506000</div>
+    <div className="text">4.42</div>    
+  </div>
+
+  <div className="table-row">
+    <div className="text">United States</div>
+    <div className="text">146M</div>
+    <div className="text">526666</div>
+    <div className="text">16.03</div>    
+  </div>
+
+  <div className="table-row">
+    <div className="text">India</div>
+    <div className="text">61.1M</div>
+    <div className="text">809000</div>
+    <div className="text">0.65</div>    
+  </div>
+
+</div>
   );
 }
 
