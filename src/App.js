@@ -1,6 +1,11 @@
 import './App.css';
 
 function App() {
+
+
+  console.log("hi hi hi")
+  
+
   return (
   <div className="container-fluid">
     <h2>Covid Vaccination Tracker </h2>
