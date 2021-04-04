@@ -6,11 +6,11 @@ object-literal: branch for the object literal way of defining object
 
 constructor-function: branch for the constructor function way of defining object 
 
-# $ ways to Create objects in JS 
+# 4 ways to Create objects in JS 
 
-Object Literals
+## Object Literals
 
-Constructor Functions 
+## Constructor Functions 
 
 Object.Create 
 
