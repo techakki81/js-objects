@@ -15,5 +15,8 @@ const Country = function(name,dosesGiven,vaccinated, population){
 const belgium = new Country("Belgium","1.74M","50600",500000) 
 const usa = new Country("United States","20M","500600",1500000) 
 const india = new Country("India","200M","5220600",522200000) 
+
 const arr = [belgium,usa,india]
-export default  arr
+
+export default arr
+export {Country}

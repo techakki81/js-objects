@@ -21,4 +21,4 @@ const india = {
     population:98600000
 }
 const arr = [belgium, usa,india]
-export default  arr
+export default arr
