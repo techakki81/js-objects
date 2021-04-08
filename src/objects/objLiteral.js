@@ -20,5 +20,5 @@ const india = {
     vaccinated:503600,
     population:98600000
 }
-
-export default [belgium, usa,india]
+const arr = [belgium, usa,india]
+export default  arr
