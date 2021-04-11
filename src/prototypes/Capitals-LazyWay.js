@@ -1,6 +1,12 @@
 //
 // convention, the Constructor function start with C 
-const Capitals = function(name,dosesGiven,vaccinated, population, centerName,schedule){
+const Capitals = function( 
+                        name,
+                        dosesGiven,
+                        vaccinated, 
+                        population, 
+                        centerName,
+                        schedule){
     this.name = name;
     this.dosesGiven= dosesGiven;
     this.vaccinated = vaccinated;

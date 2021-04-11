@@ -12,8 +12,10 @@ function App() {
  const [brussels,washington,newDelhi] = capitals
 
  // second video
-//  console.dir( be )
-//  console.dir( brussels )
+  //console.dir( be )
+  //console.log(be.Abbr())  
+  // console.dir( be  )
+  // console.dir( brussels )
  
  
   return (
@@ -56,7 +58,7 @@ function App() {
 
 
    <div className="container-fluid">
-    <h2>Covid Vaccination Tracker </h2>
+    <h2>Capital Vaccination Tracker </h2>
 
   <div className="table-row header">
     <div className="text">Country</div>
@@ -102,7 +104,7 @@ function App() {
     <div className="text">{newDelhi.testCenter.schedule} </div>      
   </div>
 
-</div>
+</div> 
 
     </div>
   
