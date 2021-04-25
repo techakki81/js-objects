@@ -2,8 +2,8 @@ import './App.css';
 //dont need the .js files 
 import countries from './objects/Const-fn'
 //import capitals from  './prototypes/Capitals-LayWay'
-import capitals from  './prototypes/Capitals.Proto'
-
+//import capitals from  './Capital.Call.js/Capitals.Proto'
+import capitals from  './prototypes/Capitals.Object'
 function App() {
 
 // console.log(countries)
@@ -61,7 +61,7 @@ function App() {
     <h2>Capital Vaccination Tracker </h2>
 
   <div className="table-row header">
-    <div className="text">Country</div>
+    <div className="text">Capital</div>
     <div className="text">Doses Given</div>
     <div className="text">Vaccinated</div>
     <div className="text">% vaccinated</div>    
