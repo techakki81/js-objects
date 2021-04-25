@@ -2,7 +2,9 @@ import './App.css';
 //dont need the .js files 
 import countries from './objects/Const-fn'
 //import capitals from  './prototypes/Capitals-LayWay'
-import capitals from  './prototypes/Capitals.Proto'
+//import capitals from  './prototypes/Capitals.Proto'
+import capitals from  './prototypes/Capitals.Call'
+
 
 function App() {
 
